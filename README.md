@@ -2,6 +2,8 @@
 
 > The leader in healthcare business news, research & data
 
-## [Docs](http://modernhealthcare.github.io/docs/dist)
+The Modern Healthcare pattern library is a guide to our resposnive, digital products. In an effort to optimize our website and workflow, we've refactored our codebase. Our approach to styling is modular, allowing us to quickly define new patterns and iterate over exisiting ones.
 
-## [Patterns](http://modernhealthcare.github.io/patterns/dist)
+## [Docs](http://modernhealthcare.github.io/mh-docs/dist)
+
+## [Patterns](http://modernhealthcare.github.io/mh-patterns/dist)
