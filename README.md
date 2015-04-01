@@ -6,4 +6,6 @@ The Modern Healthcare pattern library is a guide to our resposnive, digital prod
 
 ## [Docs](http://modernhealthcare.github.io/mh-docs/dist)
 
+## [Javascript](http://modernhealthcare.github.io/mh-javascript/dist)
+
 ## [Patterns](http://modernhealthcare.github.io/mh-patterns/dist)
