@@ -3123,6 +3123,40 @@ pre[class*="language-"] {
 .token.entity {
   cursor: help;
 }
+.-picturefill-demo {
+  position: relative;
+}
+.-picturefill-demo:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  color: #ffffff;
+  font-size: .85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000000;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: .35em .65em;
+  margin: 0;
+  content: "default: SM";
+}
+@media screen and ( min-width: 35.5em ) {
+  .-picturefill-demo:after {
+    content: "\@media (min-width: 568px): MD";
+  }
+}
+@media screen and ( min-width: 48em ) {
+  .-picturefill-demo:after {
+    content: "\@media (min-width: 768px): LG";
+  }
+}
+@media screen and ( min-width: 64em ) {
+  .-picturefill-demo:after {
+    content: "\@media (min-width: 1024px): XL";
+  }
+}
 @media print {
   .print {
     display: block !important;

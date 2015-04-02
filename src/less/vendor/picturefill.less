@@ -1,0 +1,31 @@
+//------------------------------------//
+//  @PICTUREFILL
+//------------------------------------//
+
+.-picturefill-demo {
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    color: @white;
+    font-size: .85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: @black;
+    border-bottom-left-radius: 4px;
+    padding: .35em .65em;
+    margin: 0;
+    content: "default: SM";
+    @media @sm {
+      content: "\@media (min-width: 568px): MD";
+    }
+    @media @md {
+      content: "\@media (min-width: 768px): LG";
+    }
+    @media @lg {
+      content: "\@media (min-width: 1024px): XL";
+    }
+  }
+}
