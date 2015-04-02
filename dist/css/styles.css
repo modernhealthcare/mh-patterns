@@ -3140,21 +3140,21 @@ pre[class*="language-"] {
   border-bottom-left-radius: 4px;
   padding: 1em 1.25em;
   margin: 0;
-  content: "default: SM";
+  content: "default - SM";
 }
 @media screen and ( min-width: 35.5em ) {
   .-picturefill-demo:after {
-    content: "\@media (min-width: 568px): MD";
+    content: "\@media (min-width: 568px) - MD";
   }
 }
 @media screen and ( min-width: 48em ) {
   .-picturefill-demo:after {
-    content: "\@media (min-width: 768px): LG";
+    content: "\@media (min-width: 768px) - LG";
   }
 }
 @media screen and ( min-width: 64em ) {
   .-picturefill-demo:after {
-    content: "\@media (min-width: 1024px): XL";
+    content: "\@media (min-width: 1024px) - XL";
   }
 }
 @media print {
