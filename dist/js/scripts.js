@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
-  var $this = $(this);
-
   $('h1,h2,h3,h4,h5,h6').each(function() {
+    var $this = $(this);
     var link = '<span class="icon-link"></span>';
 
     if ($this.attr('id')) {
@@ -41,6 +40,8 @@ $(document).ready(function () {
   var $toTop = $('.to-top');
 
   $(window).scroll(function() {
+    var $this = $(this);
+
     if ($this.scrollTop() > offset) {
       $toTop.addClass('is-visible');
     } else {
