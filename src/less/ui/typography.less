@@ -58,6 +58,10 @@ p {
   padding: .5em 0;
 }
 
+p > code {
+  white-space: normal !important;
+}
+
 ul,
 ol {
   padding: 0;
@@ -95,7 +99,25 @@ ol {
   margin: 0;
 }
 
-p > code {
-  white-space: normal !important;
+.factbox {
+  background-color: @sandy;
+  line-height: 1.35;
+  margin: 1em 0;
+  @media @md {
+    max-width: 50%;
+  }
+}
+
+.factbox-inner {
+  padding: 1em;
+}
+
+.factbox-label {
+  color: @warm-grey;
+  text-transform: uppercase;
+}
+
+.factbox-headline {
+  margin: 1em 0 .5em;
 }
 
